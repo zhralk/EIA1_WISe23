@@ -17,7 +17,10 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    align-items: center;
+    justify-content: center;
   }
+
 
   div.absolute {
     position: absolute;
@@ -26,3 +29,84 @@ img {
     width: 200px;
     height: 100px;
     border: 3px solid #73AD21;}
+
+   
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+  
+    h3 {
+      font-size: 50px;
+      font-family: "Times New Roman", Times, serif; 
+      font-weight: bold; 
+      color: #1e8a94; 
+      text-align: center; 
+      margin-top: 20px; 
+      padding: 10px; 
+    }
+
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    
+    .image {
+      max-width: 100%; 
+      height: auto; 
+      position: absolute; 
+    }
+    
+    .intro1 {
+      top: 20px; 
+      left: 50px; 
+    }
+    
+    .intro2 {
+      top: 20px; 
+      left: 50px; 
+    }
+
+    .intro3 {
+      top: 20px; 
+      left: 50px;
+    }
+
+    .outro1 {
+      top: 100px;
+      right: 50px; 
+    }
+    
+    .outro2 {
+      top: 100px; 
+      right: 50px; 
+    }
+
+    .outro3 {
+      top: 100px;
+      right: 50px; 
+    }
+
+    .middle1 {
+      bottom: 0px; 
+      left: 200px; 
+    }
+
+    .middle2 {
+      bottom: 0px; 
+      left: 200px; 
+    }
+
+    .middle3 {
+      bottom: 0px; 
+      left: 200px; 
+    }
+
+
+    
