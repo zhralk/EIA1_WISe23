@@ -3,10 +3,6 @@ html{
     
 }
 
-p{
-    color: rgb(48, 130, 156);
-}
-
 .myClass {
     color: blueviolet;
 }
@@ -30,15 +26,12 @@ img {
     height: 100px;
     border: 3px solid #73AD21;}
 
-   
-
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
     }
     
-  
     h3 {
       font-size: 50px;
       font-family: "Times New Roman", Times, serif; 
