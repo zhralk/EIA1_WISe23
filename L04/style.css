@@ -15,60 +15,57 @@ img {
     width: 50%;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  div.absolute {
-    position: absolute;
-    top: 80px;
-    right: 0;
-    width: 200px;
-    height: 100px;
-    border: 3px solid #73AD21;}
+    
+.image {
+  max-width: 100%; 
+  height: auto; 
+  position: absolute; 
+}
 
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
     
-    h3 {
-      font-size: 50px;
-      font-family: "Times New Roman", Times, serif; 
-      font-weight: bold; 
-      color: #1e8a94; 
-      text-align: center; 
-      margin-top: 20px; 
-      padding: 10px; 
-    }
+h3 {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif; 
+  font-weight: bold; 
+  color: #1e8a94; 
+  text-align: center; 
+  margin-top: 20px; 
+  padding: 10px; 
+ }
 
 
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
     
     
-    .image {
-      max-width: 100%; 
-      height: auto; 
-      position: absolute; 
-    }
+.intro1 {
+  top: 20px; 
+  left: 50px; 
+}
     
-    .intro1 {
-      top: 20px; 
-      left: 50px; 
-    }
-    
-    .intro2 {
-      top: 20px; 
-      left: 50px; 
-    }
+.intro2 {
+  top: 20px; 
+  left: 50px; 
+}
 
-    .intro3 {
-      top: 20px; 
-      left: 50px;
-    }
+.intro3 {
+  top: 20px; 
+  left: 50px;
+}
 
     .outro1 {
       top: 100px;

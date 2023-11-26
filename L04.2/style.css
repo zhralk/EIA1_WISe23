@@ -2,14 +2,6 @@ html{
     background-color: rgb(160, 160, 215);
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-hier
-
 div.absolute {
     position: absolute;
     top: 80px;
@@ -46,6 +38,9 @@ h1 {
         flex: 0 0 calc(100% - 20px);
         margin-bottom: 20px;
     }
+
+
+
 }
 
 
@@ -55,6 +50,8 @@ h1 {
       color: rgb(0, 0, 0)
     }
 }
+
+
 
 body, html {
     margin: 0;

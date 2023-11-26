@@ -1,141 +1,104 @@
-h1 {
-  color: rgb(19, 174, 122);
-  font-size: 50px;
-  font-family: 'Times New Roman', Times, serif;
+html{ 
+  background-color: rgb(57, 52, 52);
+}
+
+body{
+  display:grid;
+  gap: 20px;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+}
+
+h2{
+  font-size: 150px;
+  font-family: sans-serif;
+  color: black;
+}
+
+h3{
+  font-size: 100px;
+  font-family: sans-serif;
+  color: black;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 100px;
+  color: black;
+}
+
+#header{
+  grid-column: 2/15;
+  grid-row: 1/1;
+  font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  text-align: center;
-  margin-top: 20px;
-  position: relative; align-items: center;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
 }
 
-main {
-  font-size: 50px;
-  font-family: "Times New Roman", Times, serif; 
-  font-weight: bold; 
-  color: #0a3d42; 
-  text-align: center; 
-  margin-top: 20px; 
-  padding: 10px; 
+#element1 {
+  size: 100px;
+  grid-column: 2/15;
+  grid-row: 2/7;
+  background-image: url(bild1.jpg);
+  background-size: 90%;
 }
 
-li {
-  color: cornflowerblue;
+#element2 {
+  grid-column: 2/15;
+  grid-row: 7/12;
+  background-image: url(bild2.jpg);
+  background-size: 100%;
+
 }
 
-html {
-  background-color: darkcyan;
+#element3 {
+  grid-column: 2/15;
+  grid-row: 12/17;
+  background-image: url(bild3.jpg);
+  background-size: 80%;
+}   
+
+@media only screen and (min-width: 720px) {
+  body {
+  display:grid;
+  gap: 30px;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  width: 100vw;
+  height: 100vh;
 }
 
-@media screen and (min-width: 1042px) {
-  h1 {
-    font-size: 40px;
-  }
+h2{
+  size: 150px;
+  color: rgb(0, 0, 0);
 }
 
-@media print {
-  h1 {
-    color: black;
-  }
+h3{
+  size: 100px;
+  color: rgb(0, 0, 0);
 }
 
-.fibonacci-container{
-  position: relative;
+#element1 {
+  grid-column: 2/11;
+  grid-row: 2/16;
+  background-image: url(bild1.jpg);
+  overflow: auto;
 }
 
-  img.element1 {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    height: 20%;
-  }
-  
-  img.element2 {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%; 
-    height: 55%;
-  }
-  
-  img.element3 {
-    width: 89%; 
-    height: 89%;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .image {
-    max-width: 100%; 
-    height: auto; 
-    position: absolute; 
-  }
-
-
-
-
-
-
-
-
-
-  html{ 
-    background-color: rgb(160, 160, 215);
-    
+#element2 {
+  grid-column: 11/15;
+  grid-row: 2/11;
+  background-image: url(bild2.jpg);
+  background-size: 100%;
+  overflow: auto;
 }
 
-.myClass {
-    color: blueviolet;
+#element3 {
+  grid-column: 11/15;
+  grid-row: 11/16;
+  overflow: auto;
+  background-image: url(bild3.jpg);
+  background-size: 80%;
+}   
 }
-
-img {
-    position: absolute;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-  }
-
-  div.absolute {
-    position: absolute;
-    top: 80px;
-    right: 0;
-    width: 200px;
-    height: 100px;
-    border: 3px solid #73AD21;}
-
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    
-    h3 {
-      font-size: 50px;
-      font-family: "Times New Roman", Times, serif; 
-      font-weight: bold; 
-      color: #1e8a94; 
-      text-align: center; 
-      margin-top: 20px; 
-      padding: 10px; 
-    }
-
-
-    .element1 {
-      top: 100px; 
-      right: 50px; 
-    }
-
-    .element2 {
-      top: 100px;
-      right: 50px; 
-    }
-
-    .element3 {
-      bottom: 0px; 
-      left: 200px; 
-    }
-
