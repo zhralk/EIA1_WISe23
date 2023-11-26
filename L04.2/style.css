@@ -24,11 +24,23 @@ h1 {
 @media screen and (min-width: 1042px) {
     h1 {
       font-size: 40px;
+    }   
+    ul {
+        font-size: 20px;
     }
-
+    .fibonacci-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .element {
+        margin-bottom: 10px; /* Anpassung des Abstands */
+    }
     
 }
   
+
 @media print {
     h1 {
       color: rgb(0, 0, 0)
