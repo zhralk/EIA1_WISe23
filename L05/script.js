@@ -8,7 +8,7 @@ prompt("you have just witnessed a murder");
 
 prompt("the murderer is slowly walking toward your hiding spot");
 
-let decision = prompt("will you play dead or run for your life");
+let decision = prompt("will you play dead or run for your life?");
 
 if(decision == "run") {
 
