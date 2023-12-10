@@ -13,12 +13,21 @@ let decision = prompt("will you play dead or run for your life?");
 if(decision == "run") {
 
     let run = prompt("are you faster than the murderer?")
-    if(run == "yes") {prompt("you have survived the encounter with the murderer")}
-    if(run == "no") {prompt("you have been murderd in a dark alley")}
+
+    if(run == "yes") {
+        prompt("you have survived the encounter with the murderer")
+    }
+    if(run == "no") {
+        prompt("you have been murderd in a dark alley")
+    }
 
 } else if(decision == "play dead"){
     let playDead = prompt("are you sure you want to play dead?")
-    if(playDead == "yes") {prompt("you have survived the encounter with the murderder")}
-    if(playDead == "no") {prompt("you have decided to stay in your hiding spot. the murderer saw your winter coat and you have been murderd")}
+    if(playDead == "yes") {
+    prompt("you have survived the encounter with the murderder")
+}
+    if(playDead == "no") {
+        prompt("you have decided to stay in your hiding spot. the murderer saw your winter coat and you have been murderd")
+    }
 
 }
