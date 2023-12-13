@@ -36,7 +36,6 @@ alert(stories[6])
 
 let decision = prompt (stories[7])
 
-
 if(decision == "run"){
 
     let run = prompt("are you faster than the murderer?");
@@ -63,6 +62,5 @@ if(decision == "play dead"){
         alert("you have decided to stay in your hiding spot. the murderer saw your winter coat and you have been murderd");
     }
 }
-
 
 "are you faster than the murderer?"
