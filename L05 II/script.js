@@ -65,5 +65,4 @@ if(decision == "play dead"){
 }
 
 
-
 "are you faster than the murderer?"
