@@ -7,7 +7,6 @@ const stories = [
     "you have just witnessed a murder",
     "the murderer is slowly walking toward your hiding spot",
     "will you play dead or run for your life?",
-    "are you faster than the murderer?",
 ]
 
 
@@ -36,6 +35,7 @@ alert(stories[5])
 alert(stories[6])
 
 let decision = prompt (stories[7])
+
 
 if(decision == "run"){
 
@@ -66,3 +66,4 @@ if(decision == "play dead"){
 
 
 
+"are you faster than the murderer?"
