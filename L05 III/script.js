@@ -9,15 +9,37 @@ input.addEventListener("keydown", function (event) {
             output.innerHTML = "you may play the game"
         } else if (input.value <= "16") {
             output.innerHTML = "you are to young to play the game!"
-        }      
+        }     if (output.innerHtml = "you may play the game!")    
+
+        function isAdult(age) {
+            return age
+        }
+        
+        let result = isAdult(20);
+        console.log(result);
+        
+        
+        if (input.value == "run") {
+            output2.innerHTML = stories[8]
+        } else if (input.value == "yes") {
+            output2.innerHTML = stories[9]
+        } else if (input.value == "no") {
+            output2.innerHTML = stories[10]
+        }
+        
+        if (input.value == "play dead") {
+            output.innerHTML = stories[11]
+        } else if (input.value == "yes") {
+            output.innerHTML = stories[12]
+        } else if (input.value == "no") {
+            output.innerHTML = stories[13]
+        }
+              
     }
-    function isAdult(age) {
-        return age
-    }
+  
     
-    let result = isAdult(20);
-    console.log(result);
-    
+
+
 })
 
 const stories = [
@@ -36,23 +58,7 @@ const stories = [
 ]
 
 
-if (output.innerHtml = "you may play the game!")    
-        
-if (input.value == "run") {
-    output.innerHTML = stories[8]
-} else if (input.value == "yes") {
-    output.innerHTML = stories[9]
-} else if (input.value == "no") {
-    output.innerHTML = stories[10]
-}
 
-if (input.value == "play dead") {
-    output.innerHTML = stories[11]
-} else if (input.value == "yes") {
-    output.innerHTML = stories[12]
-} else if (input.value == "no") {
-    output.innerHTML = stories[13]
-}
 
 
 

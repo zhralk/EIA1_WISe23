@@ -1,7 +1,14 @@
-html {
-    background-color: rgb(193, 132, 213);
-}
+
 
 body{
-    
+    grid-column: 11/11;
+    grid-row: 10/16;
+    overflow: auto;
+}
+
+#element {
+    size: 50px;
+    grid-column: 10/15;
+    grid-row: 2/7;
+    background-size: 100%;
 }
